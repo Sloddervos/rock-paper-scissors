@@ -1,4 +1,3 @@
-/* the computerPlay function just returns a random string value of either, rock, paper, or scissors */
 
 function computerPlay(){
     let strings = ['rock', 'paper', 'scissors'];
@@ -9,7 +8,6 @@ function computerPlay(){
 
 
 function singleRound(playerSelection, computerSelection){
-/* this if condition verifies that the user input is a string and changes it to lower case, or otherwise returns  */
 computerSelection = computerPlay();
 playerSelection = prompt("make your choice");
 
